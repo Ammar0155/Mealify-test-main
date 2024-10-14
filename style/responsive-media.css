@@ -1,0 +1,329 @@
+@media (max-width: 576px) {
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .mid form .subscribe-mail {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .navbar {
+    font-size: 25px;
+  }
+  .navbar .container .sections ul {
+    display: none;
+  }
+  .navbar .container .btn {
+    order: 2;
+    position: absolute;
+    right: 2%;
+    margin-right: 30px;
+  }
+  .navbar .container .menu {
+    order: 3;
+  }
+  .chefs .container .chefs-cards .chefs-boxs .box-img::after {
+    display: none;
+  }
+  .navbar .container .menu:hover ~ .sections ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: var(--color-light);
+    padding: 20px;
+    right: -4%;
+    top: 170%;
+  }
+
+  .hedear-bg .container {
+    flex-wrap: wrap;
+  }
+  .chefs .container .chefs-cards .chefs-boxs .box-img::after {
+    top: 105px;
+  }
+  .hedear-bg .container .header-qoute {
+    width: 100%;
+    order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .hedear-bg .container .header-qoute h2 {
+    width: 60%;
+  }
+  .hedear-bg .container .header-qoute .header-btn {
+    justify-content: center;
+  }
+  .container {
+    width: 70%;
+  }
+  .hedear-bg .container .plate-img {
+    width: 100%;
+    order: 1;
+  }
+  .header {
+    height: fit-content;
+  }
+  .chefs .container .chefs-cards {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .chefs .container .chefs-cards .chefs-boxs {
+    width: calc(calc(100% - var(--gap)) / 2);
+  }
+  .gallery .container .imgs {
+    height: 1405px;
+  }
+  .gallery .container .imgs div {
+    width: calc(calc(100% - var(--gap)) / 2);
+  }
+  .footer .container {
+    flex-wrap: wrap;
+  }
+  .left,
+  .right {
+    width: calc(calc(100% - var(--gap) * 2) / 2);
+  }
+  .left {
+    order: 1;
+  }
+  .right {
+    order: 2;
+  }
+  .mid {
+    width: 100%;
+    order: 3;
+  }
+
+  .chefs .container .chefs-cards {
+    flex-wrap: wrap;
+  }
+  .chefs .container .chefs-cards .chefs-boxs {
+    width: 100%;
+  }
+  .chefs .container .chefs-cards .chefs-boxs .box-img::after {
+    top: 250px;
+  }
+  .gallery .container .imgs div {
+    width: 100%;
+  }
+  .gallery .container .imgs {
+    height: auto;
+  }
+  .contact .container .info > div {
+    width: 100%;
+  }
+  .yname,
+  .email {
+    width: 100%;
+  }
+  .footer .container {
+    flex-direction: column;
+  }
+  .left,
+  .right,
+  .mid {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .hedear-bg .container {
+    flex-wrap: wrap;
+  }
+  .chefs .container .chefs-cards .chefs-boxs .box-img::after {
+    top: 105px;
+  }
+  .hedear-bg .container .header-qoute {
+    width: 100%;
+    order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .hedear-bg .container .header-qoute h2 {
+    width: 60%;
+  }
+  .hedear-bg .container .header-qoute .header-btn {
+    justify-content: center;
+  }
+  .container {
+    width: 70%;
+  }
+  .hedear-bg .container .plate-img {
+    width: 100%;
+    order: 1;
+  }
+  .chefs .container .chefs-cards .chefs-boxs .box-img::after {
+    display: none;
+  }
+
+  .header {
+    height: fit-content;
+  }
+  .chefs .container .chefs-cards {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .chefs .container .chefs-cards .chefs-boxs {
+    width: calc(calc(100% - var(--gap)) / 2);
+  }
+  .gallery .container .imgs {
+    height: 1405px;
+  }
+  .gallery .container .imgs div {
+    width: calc(calc(100% - var(--gap)) / 2);
+  }
+  .footer .container {
+    flex-wrap: wrap;
+  }
+  .left,
+  .right {
+    width: calc(calc(100% - var(--gap) * 2) / 2);
+  }
+  .left {
+    order: 1;
+  }
+  .right {
+    order: 2;
+  }
+  .mid {
+    width: 100%;
+    order: 3;
+  }
+
+  .chefs .container .chefs-cards {
+    flex-wrap: wrap;
+  }
+  .chefs .container .chefs-cards .chefs-boxs {
+    width: 100%;
+  }
+  .chefs .container .chefs-cards .chefs-boxs .box-img::after {
+    top: 250px;
+  }
+  .gallery .container .imgs div {
+    width: 100%;
+  }
+  .gallery .container .imgs {
+    height: auto;
+  }
+  .contact .container .info > div {
+    width: 100%;
+  }
+  .yname,
+  .email {
+    width: 100%;
+  }
+  .footer .container {
+    flex-direction: column;
+  }
+  .left,
+  .right,
+  .mid {
+    width: 100%;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .hedear-bg .container {
+    flex-wrap: wrap;
+  }
+  .chefs .container .chefs-cards .chefs-boxs .box-img::after {
+    top: 105px;
+  }
+  .hedear-bg .container .header-qoute {
+    width: 100%;
+    order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .hedear-bg .container .header-qoute h2 {
+    width: 60%;
+  }
+  .hedear-bg .container .header-qoute .header-btn {
+    justify-content: center;
+  }
+  .container {
+    width: 70%;
+  }
+  .chefs .container .chefs-cards .chefs-boxs .box-img::after {
+    display: none;
+  }
+  .hedear-bg .container .plate-img {
+    width: 100%;
+    order: 1;
+  }
+  .header {
+    height: fit-content;
+  }
+  .chefs .container .chefs-cards {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .chefs .container .chefs-cards .chefs-boxs {
+    width: calc(calc(100% - var(--gap)) / 2);
+  }
+  .gallery .container .imgs {
+    height: 1405px;
+  }
+  .gallery .container .imgs div {
+    width: calc(calc(100% - var(--gap)) / 2);
+  }
+  .footer .container {
+    flex-wrap: wrap;
+  }
+  .left,
+  .right {
+    width: calc(calc(100% - var(--gap) * 2) / 2);
+  }
+  .left {
+    order: 1;
+  }
+  .right {
+    order: 2;
+  }
+  .mid {
+    width: 100%;
+    order: 3;
+  }
+}
+@media (max-width: 1200px) {
+  .navbar {
+    font-size: 25px;
+  }
+  .navbar .container .sections ul {
+    display: none;
+  }
+  .navbar .container .btn {
+    order: 2;
+    position: absolute;
+    right: 2%;
+    margin-right: 30px;
+  }
+  .navbar .container .menu {
+    order: 3;
+  }
+  .chefs .container .chefs-cards .chefs-boxs .box-img::after {
+    display: none;
+  }
+  .navbar .container .menu:hover ~ .sections ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: var(--color-light);
+    padding: 20px;
+    right: -4%;
+    top: 170%;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar .container .menu {
+    display: none;
+  }
+  .chefs .container .chefs-cards .chefs-boxs .box-img::after {
+    display: none;
+  }
+}
