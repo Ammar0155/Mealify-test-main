@@ -6,6 +6,7 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
+  overflow-x: hidden !important;
 }
 :root {
   --svg--link: url(../image/team-shape.svg);
@@ -42,6 +43,8 @@ ul {
 .container {
   width: 80%;
   margin: auto;
+  transition: width ;
+  transition-timing-function:ease;
 }
 
 /* start header */
@@ -414,11 +417,11 @@ ul {
   color: #fff;
   position: absolute;
   left: 0;
-  top: 100;
+  top: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 2;
   font-weight: 700;
-  font-size: 24px;
+
   transition: top var(--animation-duration);
 }
 .gallery .container .imgs div:hover::after {
@@ -432,7 +435,7 @@ ul {
   color: #fff;
   position: absolute;
   left: 50%;
-  top: -20%;
+  top: -30%;
   transform: translate(-50%, 0%);
   width: 100%;
   z-index: 3;
