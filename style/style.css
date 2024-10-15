@@ -11,16 +11,10 @@ body {
 :root {
   --svg--link: url(../image/team-shape.svg);
   --color-default: #212529;
-  --primary-hue: 0;
-  --primary-saturation: 84%;
-  --primary-lightness: 44%;
   --color-primary: hsl(0, 84%, 44%);
   --color-secondary: #37373f;
   --color-tertiary: #7f7f90;
   --hover-bg-color: rgb(230, 20, 20);
-  --light-hue: 0;
-  --light-saturation: 0%;
-  --light-lightness: 100%;
   --color-light: hsl(0, 0%, 100%);
   --color-light-grey: #eee;
   --color-light-grey2: #fff;
@@ -399,6 +393,7 @@ ul {
   -moz-transition: top var(--animation-duration);
   -ms-transition: top var(--animation-duration);
   -o-transition: top var(--animation-duration);
+  margin-bottom: 20px;
 }
 
 .gallery .container .imgs div img {
@@ -606,6 +601,7 @@ ul {
 }
 .footer {
   background-image: url(../image/textured-metal-background.jpg);
+  background-size: cover;
   color: #fff;
   padding: 50px 0px;
 }
